@@ -13,13 +13,8 @@ namespace API.Models
         public string postal_code { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
-        //public string password { get; set; }
         public string type { get; set; }
         public int? min_stay { get; set; }
-
-        //public string checkin_time { get; set; }
-        //public string checkout_time { get; set; }
-
         public string languages { get; set; }
         public string currencies { get; set; }
         public string coordinates { get; set; }
@@ -161,6 +156,8 @@ namespace API.Models
         public string description { get; set; }
         public string photo { get; set; }
         public string safebox_text { get; set; }
+        public string checkin_time { get; set; }
+        public string checkout_time { get; set; }
         public string booking_hotel_id { get; set; }
         public string booking_room_id { get; set; }
         public string booking_rate_id { get; set; }
@@ -299,7 +296,6 @@ namespace API.Models
         public float? eight { get; set; }
         public float? nine { get; set; }
         public float? ten { get; set; }
-
         public string airbnb { get; set; }
         public string booking { get; set; }
         public string expedia { get; set; }
